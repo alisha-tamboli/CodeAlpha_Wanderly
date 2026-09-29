@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wanderly ✈️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Wanderly ✈️</div>
+
+        <div class="nav-links" id="nav-links"></div>
+    </nav>
+
+    <main class="container">
+
+        <section class="hero">
+            <h1>Discover. Share. Wander. ✈️</h1>
+            <p>Discover places. Share experiences. Find your next escape.</p>
+        </section>
+
+        <!-- STORIES -->
+
+                <div class="stories-wrapper">
+
+    <!-- Add Story -->
+
+        <div class="story add-story">
+
+            <label for="story-image-input">
+
+                <div class="add-story-circle">
+                    <span>+</span>
+                </div>
+
+                <p>Add Story</p>
+
+            </label>
+
+            <input
+                type="file"
+                id="story-image-input"
+                accept="image/*"
+                hidden
+            >
+
+        </div>
+
+
+        <!-- Existing Stories -->
+
+        <div
+            id="stories-container"
+            class="stories-container"
+        >
+        </div>
+
+    </div>
+
+        <!-- POSTS -->
+
+        <section class="latest-posts-section">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Latest Travel Posts</h2>
+                    <p>See what's happening around Wanderly ✈️</p>
+                </div>
+            </div>
+
+            <div id="posts-container"></div>
+
+        </section>
+
+    </main>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/stories.js"></script>
+    <script src="js/feed.js"></script>
+
+    <footer class="footer">
+
+    <div class="footer-logo">
+        Wanderly ✈️
+    </div>
+
+    <p>
+        Discover places. Share experiences. Find your next escape.
+    </p>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="create-post.html">Create Post</a>
+        <a href="profile.html">Profile</a>
+    </div>
+
+    <p class="footer-copy">
+        © 2026 Wanderly. All rights reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>

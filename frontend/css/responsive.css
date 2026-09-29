@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 25px 15px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .post {
+        padding: 15px;
+    }
+}
+
+.footer-links {
+    gap: 15px;
+}
+
+.footer {
+    padding: 30px 15px 18px;
+}

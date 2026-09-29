@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Post - Wanderly</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Wanderly ✈️</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="create-post.html">Create Post</a>
+            <a href="profile.html">Profile</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="hero">
+            <h1>Share Your Journey ✈️</h1>
+            <p>Tell the Wanderly community about your travel experience.</p>
+        </div>
+
+        <form id="create-post-form">
+
+            <label>Location</label>
+            <input
+                type="text"
+                id="location"
+                placeholder="e.g. Goa"
+                required
+            >
+
+            <label>Content</label>
+            <textarea
+                id="content"
+                placeholder="Share your experience..."
+                rows="5"
+                required
+            ></textarea>
+
+            <label>Travel Photo</label>
+            <input
+                type="file"
+                id="image"
+                accept="image/*"
+            >
+
+            <button type="submit">Publish Post ✈️</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </main>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/create-post.js"></script>
+
+</body>
+</html>
